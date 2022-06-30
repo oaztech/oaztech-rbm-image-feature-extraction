@@ -5,4 +5,4 @@ services:
     build: .
     image: rbm-image-feature-extraction:snapshot
     ports:
-      - "8000:8000"
+      - "8881:8000"
