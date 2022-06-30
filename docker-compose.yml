@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  rbm-image-feature-extraction:
+    build: .
+    image: rbm-image-feature-extraction:snapshot
+    ports:
+      - "8000:8000"
