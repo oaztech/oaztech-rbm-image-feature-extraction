@@ -1,7 +1,8 @@
 version: "3.9"
 
 services:
-  rbm-image-feature-extraction:
+  rbm-feature-extraction:
+    container_name: rbm-feature-extraction
     build: .
     image: rbm-image-feature-extraction:snapshot
     ports:
